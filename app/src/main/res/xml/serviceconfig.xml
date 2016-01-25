@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service android:description="@string/accessibility_description"
+    android:settingsActivity="com.RSen.Commandr.MainActivity"
+    android:accessibilityEventTypes="typeViewTextSelectionChanged|typeWindowContentChanged"
+    android:packageNames="com.google.android.googlequicksearchbox"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="100"
+    android:accessibilityFlags="flagIncludeNotImportantViews"
+    android:canRetrieveWindowContent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
